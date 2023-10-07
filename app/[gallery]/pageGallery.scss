@@ -1,0 +1,18 @@
+.page-gallery {
+  &__title {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+  &__items {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  }
+}
+

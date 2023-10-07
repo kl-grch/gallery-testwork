@@ -1,0 +1,13 @@
+.admin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  button {
+    width: calc(50% - 15px);
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
